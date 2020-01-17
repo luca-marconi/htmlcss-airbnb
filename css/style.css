@@ -14,3 +14,16 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.city {
+        width: 280px;
+        height: 180px;
+        background-color: lightgreen;
+        margin: 15px 10px;
+}
+
+img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+}
