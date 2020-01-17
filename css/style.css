@@ -5,11 +5,19 @@
 
 }
 
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+
+}
+
 .container {
     width: 300px;
     height: 600px;
     background-color: white;
-    border: 1px solid black;
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,11 +26,11 @@
 }
 
 .city {
-        width: 280px;
-        height: 180px;
-        background-color: lightgreen;
-        margin: 15px 10px;
-        position: relative;
+    width: 280px;
+    height: 180px;
+    background-color: lightgreen;
+    margin: 15px 10px;
+    position: relative;
 }
 
 img {
@@ -48,5 +56,13 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
 
+.overlay_back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.5);
 }
